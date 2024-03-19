@@ -16,6 +16,9 @@ To run the program, use the following command:
 You can specify the following flags:
 
 -c: Cache size in bytes
+
 -b: Size of data block
+
 -n: N-way associativity of cache
+
 -r: Replacement policy
