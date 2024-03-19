@@ -1,5 +1,8 @@
 
-Go to cpp/ folder and then perform the following:
+## Architecture
+![Image](arch.png)
+
+
 Compile: 
     g++ -O2 cache-sim.cpp -o cache-sim
 
