@@ -2,19 +2,20 @@
 ## Architecture
 ![Image](arch.png)
 
+## Compilation and Execution
 
-Compile: 
-    g++ -O2 cache-sim.cpp -o cache-sim
+Compile the program using the following command:
 
-To run: 
-    ./cache-sim
+```bash
+g++ -O2 cache-sim.cpp -o cache-sim
+```
+To run the program, use the following command:
+```bash
+./cache-sim
+```
+You can specify the following flags:
 
-Flags: 
-
--c : cache size in bytes
-
--b : size of data block
-
--n : n-way associativity of cache
-
--r : replacement policy
+-c: Cache size in bytes
+-b: Size of data block
+-n: N-way associativity of cache
+-r: Replacement policy
